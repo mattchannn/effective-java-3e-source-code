@@ -8,4 +8,6 @@ public interface Vehicle {
     static Audi newAudi() {
         return new Audi();
     }
+
+    void accelerate();
 }
