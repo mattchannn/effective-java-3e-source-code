@@ -10,6 +10,6 @@ public class StaticFactoryCompanion {
 
     public static void main(String[] args) {
         Vehicle v = Vehicles.newBMW();
-        Collection c = Collections.unmodifiableList(null);
+        v.accelerate();
     }
 }
