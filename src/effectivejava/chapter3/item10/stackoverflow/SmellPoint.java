@@ -2,7 +2,6 @@ package effectivejava.chapter3.item10.stackoverflow;
 
 import effectivejava.chapter3.item10.Color;
 import effectivejava.chapter3.item10.Point;
-import effectivejava.chapter3.item10.stackoverflow.ColorPoint;
 
 public class SmellPoint extends Point {
     private final Color color;
