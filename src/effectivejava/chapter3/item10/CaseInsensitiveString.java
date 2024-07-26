@@ -25,7 +25,12 @@ public final class CaseInsensitiveString {
     // Demonstration of the problem (Page 40)
     public static void main(String[] args) {
         CaseInsensitiveString cis = new CaseInsensitiveString("Polish");
+        CaseInsensitiveString acis = new CaseInsensitiveString("polish");
         String s = "polish";
+        boolean cisEqualS = cis.equals(s);
+        boolean sEqualCis = s.equals(cis.s);
+        boolean acisEqualCis = acis.equals(cis);
+        System.out.printf("Is CIS equal to S [%s]. Is S equal to CIS [%s]. Is ACIS equal to CIS [%s]%n", cisEqualS, sEqualCis, acisEqualCis);
 
         List<CaseInsensitiveString> list = new ArrayList<>();
         list.add(cis);
